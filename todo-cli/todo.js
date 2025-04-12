@@ -86,3 +86,4 @@ const todoList = () => {
   console.log(todos.toDisplayableList(itemsDueLater))
   console.log("\n")
   
+module.exports = todoList;
