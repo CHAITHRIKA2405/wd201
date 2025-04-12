@@ -1,13 +1,13 @@
-import { defineConfig } from 'eslint';
+import { defineConfig } from "eslint";
 
 export default defineConfig({
   extends: [
-    'eslint:recommended',
-    'plugin:prettier/recommended', // Ensures compatibility with Prettier
+    "eslint:recommended",
+    "plugin:prettier/recommended", // Ensures compatibility with Prettier
   ],
   parserOptions: {
     ecmaVersion: 2020, // Set ECMAScript version
-    sourceType: 'module', // Support ES6 module syntax
+    sourceType: "module", // Support ES6 module syntax
   },
   env: {
     node: true, // Node.js environment
@@ -15,6 +15,6 @@ export default defineConfig({
   },
   rules: {
     // Add any custom rules here if needed
-    'no-console': 'warn', // Example: Warn when using console.log
+    "no-console": "warn", // Example: Warn when using console.log
   },
 });
